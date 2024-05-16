@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function ProfileIcon() {
+export default function DashboardContent() {
   return (
     <View>
-      <Text>ProfileIcon</Text>
+      <Text>DashboardContent</Text>
     </View>
   )
 }

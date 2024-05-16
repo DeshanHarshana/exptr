@@ -15,6 +15,7 @@ export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    PoetsenOne:require("../assets/fonts/PoetsenOne-Regular.ttf")
   });
   useEffect(() => {
     if (loaded) {

@@ -6,7 +6,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.fullScreenView}>
       <TopBar></TopBar>
-
+      
     </View>
   );
 }
